@@ -1,0 +1,29 @@
+<game_data>
+   <cell_feature id="gold_ore" name="Gold Ore" type="SimpleCellFeature" minimap_color="Yellow">
+    <detailed_sprite layer="0.4" image_key="cell_gold" adjacency="" type="Simple"/>
+    <summary_sprite layer="0.4" image_key="cell_gold_summary" adjacency="" type="Simple"/>
+    <trait trait="trait_gold" />
+    <trait trait="trait_uneven_ground" />
+  </cell_feature>
+  
+  <cell_feature id="iron_ore" name="Iron Ore" type="SimpleCellFeature" minimap_color="Yellow">
+    <detailed_sprite layer="0.4" image_key="cell_iron" adjacency="" type="Simple"/>
+    <summary_sprite layer="0.4" image_key="cell_iron_summary" adjacency="" type="Simple"/>
+    <trait trait="trait_iron" />
+    <trait trait="trait_uneven_ground"/>
+  </cell_feature>
+  
+  <cell_feature id="fire_pit" name="Fire Pit" type="SimpleCellFeature" minimap_color="Red">
+    <detailed_sprite layer="0.4" image_key="cell_fire" adjacency="" type="Simple"/>
+    <summary_sprite layer="0.4" image_key="cell_fire_summary" adjacency="" type="Simple"/>
+    <trait trait="trait_fire" />
+	<not_trait trait="trait_walkable" />
+  </cell_feature>
+  
+  <cell_feature id="fire_pit" name="Tornado" type="SimpleCellFeature" minimap_color="White">
+    <detailed_sprite layer="0.4" image_key="cell_storm" adjacency="" type="Simple"/>
+    <summary_sprite layer="0.4" image_key="cell_storm_summary" adjacency="" type="Simple"/>
+    <trait trait="trait_storm" />
+	<not_trait trait="trait_walkable" />
+  </cell_feature>
+</game_data>

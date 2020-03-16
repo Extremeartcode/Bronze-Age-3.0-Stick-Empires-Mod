@@ -1,0 +1,52 @@
+<game_data>
+  <unit_type id="se_chaos_u_crawler"
+             name="Crawler"
+             race="se_ch_Chaosempire"
+             type="SimpleUnitType"
+             category="category_infantry"
+             recruitment_category="recruit_crawler">
+
+    <description>
+      The Crawler. Cheapest and easiest to train, but weak.
+    </description>
+
+  <equipment level="0" name="" icon="se_o_u_swordwrath_0_icon" portrait="se_o_u_swordwrath_0_portrait">
+    <description>
+        Weilding a wooden club, these units can take care of weak enemies.
+    </description>
+
+      <vision range="2" />
+
+    <movement>
+        <movement_mode type="move_walking" speed="6" />
+    </movement>
+
+      <combat individuals="24" health="8" armor="0" defense="2" block="0" strength_estimate="2" skirmish="1" resolve= "10">
+        <melee animation="melee" skill="2" damage="2" cooldown="1" range="8" armor_penetration="0"/>
+      </combat>
+
+      <individuals>
+        <animation name="idle" image_key = "t_u_IMTwelper_0_idle" width="32" height="32" frame_count="3" facing_type="ByRow" sound="none" layer="0.5" loop_time="4" />
+        <animation name="walking" image_key = "t_u_IMTwelper_0_walking" width="32" height="32" frame_count="3" facing_type="ByRow" sound="none" layer="0.8" loop_time="0.75" />
+        <animation name="melee" image_key = "t_u_IMTwelper_0_melee" width="32" height="32" frame_count="3" facing_type="ByRow" sound="none" layer="0.8" loop_time="1" />
+        <animation name="skirmishing" image_key = "t_u_IMTwelper_0_skirmishing" width="32" height="32" frame_count="3" facing_type="ByRow" sound="none" layer="0.8" loop_time="0.5" />
+        <animation name="death" image_key = "t_u_IMTwelper_0_death" width="32" height="32" frame_count="3" facing_type="ByRow" sound="none" layer="0.8" loop_time="0.5" />
+        <animation name="corpse" image_key = "t_u_IMTwelper_0_corpse" width="32" height="32" frame_count="3" facing_type="ByRow" sound="none" layer="0.8" loop_time="1" />
+        <animation name="camping" image_key = "t_u_camping" width="32" height="32" frame_count="1" facing_type="ByRow" sound="none" layer="0.8" loop_time="1" />
+      </individuals>
+
+
+      <action type="ArmyCampAction"/>
+      <action type="ArmyRaidAction"/>
+
+    <recruitment>
+        
+    </recruitment>
+
+    <upkeep supply_capacity ="5">
+        <input item="Meat" per_month="0.25" />
+    </upkeep>
+  </equipment>
+
+  </unit_type>
+</game_data>

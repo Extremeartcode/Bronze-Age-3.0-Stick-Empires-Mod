@@ -1,0 +1,23 @@
+<game_data>
+  <service name="Distribution" icon="s_distribution" area_icon="s_area_distribution">
+    <description>Distributing food and supplies to houses.</description>
+  </service>
+  <service name="Hauling" icon="s_hauling" area_icon="s_area_hauling">
+    <description>Hauling services, collecting and carrying items more efficiently.</description>
+  </service>
+  <service name="Administration" icon="s_administration" area_icon="s_area_administration">
+    <description>Overseeing the nobility keeps them loyal to the king.</description>
+  </service>
+  <service name="Oppression" icon="s_oppression" area_icon="s_area_oppression">
+    <description>Opressing the citizens keeps them orderly and prevents riots.</description>
+  </service>
+  <service name="Justice" icon="s_justice" area_icon="s_area_justice">
+    <description>Justice reassures the citizens that they will be kept safe.</description>
+  </service>
+  <service name="Tax Collection" icon="s_tax_collection" area_icon="s_area_tax_collection">
+    <description>Collecting wealth from the homes and shops of your citizens.</description>
+  </service>
+  <service name="Masonry" icon="s_masonry" area_icon="s_area_masonry">
+    <description>Skilled masons improve nearby roads and walls with stonework.</description>
+  </service>
+</game_data>

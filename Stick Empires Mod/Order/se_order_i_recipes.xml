@@ -1,0 +1,98 @@
+<game_data>
+\\\Swordwrath Recipes\\\
+  <recipe id="recipe_wood_sword" name="Craft Wooden Swords" icon="recipe_wood_sword" verb="Crafting Wood Swords">
+    <input item="Wood" per_month="5" />
+    <output item="Wooden Swords" per_month="5"/>
+  </recipe>
+
+  <recipe id="recipe_copper_sword" name="Forge Copper Swords" icon="recipe_copper_sword" verb="Forging Copper Swords">
+    <animation name="smelting" />
+    <input item="Copper" per_month="5"/>
+    <output item="Copper Swords" per_month="5"/>
+  </recipe>
+  
+  <recipe id="recipe_bronze_sword" name="Forge Bronze Swords" icon="recipe_bronze_sword" verb="Forging Bronze Swords">
+    <animation name="smelting" />
+    <input item="Bronze" per_month="5"/>
+    <output item="Bronze Swords" per_month="5"/>
+  </recipe>
+  
+  <recipe id="recipe_iron_sword" name="Forge Iron Swords" icon="recipe_iron_sword" verb="Forging Iron Blades">
+    <animation name="smelting" />
+    <input item="Iron" per_month="5"/>
+    <output item="Iron Swords" per_month="5"/>
+  </recipe>
+  
+  <recipe id="recipe_steel_sword" name="Forge Steel Swords" icon="recipe_steel_sword" verb="Forging Steel Blades">
+    <animation name="smelting" />
+    <input item="Steel" per_month="5"/>
+    <output item="Steel Swords" per_month="5"/>
+  </recipe>
+
+\\\Spearton Recipes\\\
+  <recipe id="recipe_wood_spear" name="Craft Wooden Spears" icon="recipe_wood_spear" verb="Crafting Wood Spears">
+    <input item="Wood" per_month="5" />
+    <output item="Wooden Spears" per_month="5"/>
+  </recipe>
+
+  <recipe id="recipe_copper_spear" name="Forge Copper Spears" icon="recipe_copper_spear" verb="Forging Copper Spears">
+    <animation name="smelting" />
+    <input item="Copper" per_month="5"/>
+    <output item="Copper Spears" per_month="5"/>
+  </recipe>
+  
+  <recipe id="recipe_bronze_spear" name="Forge Bronze Spears" icon="recipe_bronze_spear" verb="Forging Bronze Spears">
+    <animation name="smelting" />
+    <input item="Bronze" per_month="5"/>
+    <output item="Bronze Sspears" per_month="5"/>
+  </recipe>
+  
+  <recipe id="recipe_iron_spear" name="Forge Iron Spears" icon="recipe_iron_spear" verb="Forging Iron Spears">
+    <animation name="smelting" />
+    <input item="Iron" per_month="5"/>
+    <output item="Iron Spears" per_month="5"/>
+  </recipe>
+  
+  <recipe id="recipe_steel_spear" name="Forge Steel Spears" icon="recipe_steel_spear" verb="Forging Steel Spears">
+    <animation name="smelting" />
+    <input item="Steel" per_month="5"/>
+    <output item="Steel Spears" per_month="5"/>
+  </recipe>
+  
+\\\Archidon Recipes\\\
+  <recipe id="recipe_wood_arrow" name="Craft Wooden Arrows" icon="recipe_wood_arrow" verb="CCrafting wooden tipped arrows">
+    <input item="Wood" per_month="5" />
+    <output item="Wooden Arrows" per_month="5"/>
+  </recipe>
+
+  <recipe id="recipe_copper_arrow" name="Craft Copper Arrows" icon="recipe_copper_arrow" verb="FCrafting copper arrows">
+    <animation name="smelting" />
+    <input item="Copper" per_month="5"/>
+    <output item="Copper Arrows" per_month="5"/>
+  </recipe>
+  
+  <recipe id="recipe_bronze_arrow" name="Craft Bronze Arrows" icon="recipe_bronze_arrow" verb="Crafting bronze arrows">
+    <animation name="smelting" />
+    <input item="Bronze" per_month="5"/>
+    <output item="Bronze Arrows" per_month="5"/>
+  </recipe>
+  
+  <recipe id="recipe_iron_arrow" name="Craft Iron Arrows" icon="recipe_iron_arrow" verb="Crafting iron arrows">
+    <animation name="smelting" />
+    <input item="Iron" per_month="5"/>
+    <output item="Iron Arrows" per_month="5"/>
+  </recipe>
+  
+  <recipe id="recipe_steel_arrow" name="Craft Steel Arrows" icon="recipe_steel_arrow" verb="Crafting steel arrows">
+    <animation name="smelting" />
+    <input item="Steel" per_month="5"/>
+    <output item="Steel Arrows" per_month="5"/>
+  </recipe>
+  
+    <recipe id="recipe_tipped_arrow" name="Craft Poison Arrows" icon="recipe_poison_arrow" verb="Crafting Tipped arrows">
+    <animation name="smelting" />
+    <input item="Steel" per_month="5"/>
+    <output item="Tipped Arrows" per_month="5"/>
+  </recipe>
+  
+</game_data>

@@ -1,0 +1,40 @@
+<game_data>
+  <race id="se_cn_giant"
+        name="Native Giants"
+        player_available="false"
+        tribe_name_pattern="_tribe_name"
+        settlement_name_pattern="_settlement_name"
+        army_name_pattern="_tc_LO_army_name"
+        person_name_pattern="_person_name"
+        army_flag="tc_r_L_army_flag"
+        army_flag_icon="tc_r_L_army_flag_center"
+        starting_people_scheme="StandardFamilyPeopleScheme"
+        age_maturity="120"
+        age_old="360"
+        pregnancy_time="5"
+        pregnancy_chance="0.04">
+
+    <people_parts>
+    </people_parts>
+
+    <people_skills>
+    </people_skills>
+
+    <description>
+      Natives of the land or deserters that didn't serve under any empire.
+    </description>
+
+    <caste id="caste_humitte_citizen"
+           name="Lel"
+           name_plural="nobody will see this"
+           is_default="true"
+           icon="pop_maskling_warrior"
+           worker_icon="pop_maskling_warrior_worker"
+           big_icon="pop_maskling_warrior_big"
+           growth_rate="4.0">
+		   
+		   <animation name="corpse" image_key="t_r_twelper_corpse" width="16" height="16" frame_count="4" facing_type="ByRow" sound="none" layer="0.3" loop_time="40"/>
+
+    </caste>
+  </race>
+</game_data>

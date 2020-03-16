@@ -1,0 +1,5 @@
+<game_data>
+    <unit_category id="category_infantry" name="Infantry" icon="category_infantry" />
+    <unit_category id="category_cavalry" name="Cavalry" icon="category_cavalry" />
+    <unit_category id="category_ship" name="Ship" icon="category_ship" />
+</game_data>

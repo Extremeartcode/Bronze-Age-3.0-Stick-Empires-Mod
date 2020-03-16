@@ -1,0 +1,269 @@
+<mutators>
+					<!--> World Cradle <!-->
+  <add_element xpath="//plane_feature[@id='world_cradle_surface']">
+   <seed_point id="wc_sp_surface_tspawn"
+              priority="100"
+              x="55" y="40" pos_variance="0"
+              infl_weight="15" infl_range="15"
+              type="EmpirePlacerSeedPoint">
+
+        <required trait="trait_walkable" />
+        <preferred_neighbor trait="trait_water" />
+        <not_preferred trait="trait_arid"/>
+
+        <empire id="wr_sp_surface_tspawn_twelper"
+                player_available="true"
+                race="t_r_twelper"
+                starting_development="t_d_settlement"
+                starting_caste="caste_simple_twelper"
+                starting_pops="30"
+                behavior="ai_twelper_village">
+				<seed_development development_id="t_d_farms_1" recipie_id="recipe_livingstone_growing" />
+				<seed_development development_id="t_d_farms_1" recipie_id="recipe_livingstone_growing" />
+				<seed_development development_id="t_d_farms_1" recipie_id="recipe_livingstone_growing" />
+        </empire>
+      </seed_point>
+  </add_element>
+  <add_element xpath="//region_feature[@id='wc_rf_swamp']">
+        <inclusion_feature id="wc_Pods"
+          cells_per_occurrence="30"
+          minimum_occurrences="0"
+          cell_feature="Pods"/>
+  </add_element>  
+  <add_element xpath="//region_feature[@id='wc_rf_swamp']">
+      <inclusion_feature id="wc_rf_swamp_ft_camp"
+          cells_per_occurrence="120"
+          minimum_occurrences="0"
+		  cell_feature="swamp_vegitation"
+          cell_development="ft_d_creep_camp"/>
+  </add_element>  
+  <add_element xpath="//region_feature[@id='wc_rf_savannah']">
+      <inclusion_feature id="wc_rf_savannah_legion_camp"
+          cells_per_occurrence="240"
+          minimum_occurrences="0"
+          cell_development="t_L_d_creep_camp"/>
+  </add_element>
+  <add_element xpath="//region_feature[@id='wc_rf_grassland']">
+      <inclusion_feature id="wc_rf_grassland_OS_camp"
+          cells_per_occurrence="120"
+          minimum_occurrences="0"
+          cell_development="t_OS_d_creep_camp"/>
+  </add_element>
+  <add_element xpath="//region_feature[@id='wc_rf_grassland']">
+      <inclusion_feature id="wc_rf_grassland_TW_camp"
+          cells_per_occurrence="200"
+          minimum_occurrences="0"
+          cell_development="tw_d_creep_camp"/>
+  </add_element>
+  <add_element xpath="//region_feature[@id='wc_rf_grassland']">
+      <inclusion_feature id="wc_rf_grassland_TM_camp"
+          cells_per_occurrence="200"
+          minimum_occurrences="0"
+          cell_development="tm_d_creep_camp"/>
+  </add_element>
+  <add_element xpath="//region_feature[@id='wc_rf_forest']">
+      <inclusion_feature id="wc_rf_forest_ft_camp"
+          cells_per_occurrence="120"
+          minimum_occurrences="0"
+          cell_feature="garden_forest_heavy"
+          cell_development="ft_d_creep_camp"/>
+  </add_element>
+						<!--> Caves <!-->
+  <add_element xpath="//region_feature[@id='wc_rf_cavern_fungal']">
+      <inclusion_feature id="wc_rf_cavern_fungal_ft_camp"
+          cells_per_occurrence="120"
+          minimum_occurrences="0"
+		  cell_feature="swamp_vegitation"
+          cell_development="ft_d_creep_camp"/>
+  </add_element>  
+  <add_element xpath="//region_feature[@id='wc_rf_cavern_fungal']">
+        <inclusion_feature id="wc_Pods"
+          cells_per_occurrence="40"
+          minimum_occurrences="0"
+          cell_feature="Pods"/>
+  </add_element> 
+  <add_element xpath="//region_feature[@id='wc_rf_cavern']">
+      <inclusion_feature id="wc_rf_cavern_lost_camp"
+          cells_per_occurrence="120"
+          minimum_occurrences="0"
+          cell_development="tc_d_l_creep_camp"/>
+  </add_element>
+  <add_element xpath="//region_feature[@id='wc_rf_cavern']">
+        <inclusion_feature id="wc_LBVeins"
+          cells_per_occurrence="50"
+          minimum_occurrences="0"
+          cell_feature="ore_LBC"/>
+  </add_element>  
+  
+  
+  
+  
+					<!--> World Riverlands <!-->
+  <add_element xpath="//plane_feature[@id='world_riverland_surface']">
+   <seed_point id="wr_sp_surface_tspawn"
+              priority="100"
+              x="40" y="60" pos_variance="0"
+              infl_weight="15" infl_range="15"
+              type="EmpirePlacerSeedPoint">
+
+        <required trait="trait_walkable" />
+        <preferred_neighbor trait="trait_water" />
+        <not_preferred trait="trait_arid"/>
+
+    <empire id="wr_sp_surface_tspawn_twelper"
+                player_available="true"
+                race="t_r_twelper"
+                starting_development="t_d_settlement"
+                starting_caste="caste_simple_twelper"
+                starting_pops="30"
+                behavior="ai_twelper_village">
+				<seed_development development_id="t_d_farms_1" recipie_id="recipe_livingstone_growing" />
+				<seed_development development_id="t_d_farms_1" recipie_id="recipe_livingstone_growing" />
+				<seed_development development_id="t_d_farms_1" recipie_id="recipe_livingstone_growing" />
+        </empire>
+      </seed_point>
+  </add_element>
+  
+  <add_element xpath="//region_feature[@id='wr_rf_swamp']">
+        <inclusion_feature id="wr_Pods"
+          cells_per_occurrence="30"
+          minimum_occurrences="0"
+          cell_feature="Pods"/>
+  </add_element>
+  <add_element xpath="//region_feature[@id='wr_rf_swamp']">
+      <inclusion_feature id="wr_rf_swamp_ft_camp"
+          cells_per_occurrence="120"
+          minimum_occurrences="0"
+		  cell_feature="swamp_vegitation"
+          cell_development="ft_d_creep_camp"/>
+  </add_element>
+  <add_element xpath="//region_feature[@id='wr_rf_steppe']">
+      <inclusion_feature id="wr_rf_steppe_legion_camp"
+          cells_per_occurrence="320"
+          minimum_occurrences="0"
+          cell_development="t_L_d_creep_camp"/>
+  </add_element>
+  <add_element xpath="//region_feature[@id='wr_rf_grassland']">
+      <inclusion_feature id="wr_rf_grassland_OS_camp"
+          cells_per_occurrence="200"
+          minimum_occurrences="0"
+          cell_development="t_OS_d_creep_camp"/>
+  </add_element>
+  <add_element xpath="//region_feature[@id='wr_rf_grassland']">
+      <inclusion_feature id="wr_rf_grassland_TW_camp"
+          cells_per_occurrence="200"
+          minimum_occurrences="0"
+          cell_development="tw_d_creep_camp"/>
+  </add_element>
+  <add_element xpath="//region_feature[@id='wr_rf_grassland']">
+      <inclusion_feature id="wr_rf_grassland_TM_camp"
+          cells_per_occurrence="200"
+          minimum_occurrences="0"
+          cell_development="tm_d_creep_camp"/>
+  </add_element>
+  <add_element xpath="//region_feature[@id='wr_rf_forest']">
+      <inclusion_feature id="wr_rf_forest_ft_camp"
+          cells_per_occurrence="120"
+          minimum_occurrences="0"
+          cell_feature="garden_forest_heavy"
+          cell_development="ft_d_creep_camp"/>
+  </add_element>
+						<!--> Caves <!-->
+  <add_element xpath="//region_feature[@id='wr_rf_cavern_fungal']">
+      <inclusion_feature id="wr_rf_cavern_fungal_ft_camp"
+          cells_per_occurrence="120"
+          minimum_occurrences="0"
+		  cell_feature="swamp_vegitation"
+          cell_development="ft_d_creep_camp"/>
+  </add_element>
+  <add_element xpath="//region_feature[@id='wr_rf_cavern_fungal']">
+        <inclusion_feature id="wr_Pods"
+          cells_per_occurrence="40"
+          minimum_occurrences="0"
+          cell_feature="Pods"/>
+  </add_element> 
+  <add_element xpath="//region_feature[@id='wr_rf_cavern']">
+      <inclusion_feature id="wr_rf_cavern_lost_camp"
+          cells_per_occurrence="120"
+          minimum_occurrences="0"
+          cell_development="tc_d_l_creep_camp"/>
+  </add_element>
+  <add_element xpath="//region_feature[@id='wr_rf_cavern']">
+        <inclusion_feature id="wr_LBVeins"
+          cells_per_occurrence="50"
+          minimum_occurrences="0"
+          cell_feature="ore_LBC"/>
+  </add_element>  
+  
+  
+  					<!--> World Valley <!-->
+  <add_element xpath="//plane_feature[@id='world_valley_surface']">
+   <seed_point id="wv_sp_surface_tspawn"
+              priority="100"
+              x="20" y="30" pos_variance="0"
+              infl_weight="15" infl_range="15"
+              type="EmpirePlacerSeedPoint">
+
+        <required trait="trait_walkable" />
+        <preferred_neighbor trait="trait_water" />
+        <not_preferred trait="trait_arid"/>
+
+    <empire id="wv_sp_surface_tspawn_twelper"
+                player_available="true"
+                race="t_r_twelper"
+                starting_development="t_d_settlement"
+                starting_caste="caste_simple_twelper"
+                starting_pops="30"
+                behavior="ai_twelper_village">
+				<seed_development development_id="t_d_farms_1" recipie_id="recipe_livingstone_growing" />
+				<seed_development development_id="t_d_farms_1" recipie_id="recipe_livingstone_growing" />
+				<seed_development development_id="t_d_farms_1" recipie_id="recipe_livingstone_growing" />
+        </empire>
+      </seed_point>
+  </add_element>
+  <add_element xpath="//region_feature[@id='wv_rf_grassland']">
+      <inclusion_feature id="wv_rf_grassland_ft_camp"
+          cells_per_occurrence="80"
+          minimum_occurrences="0"
+          cell_development="ft_d_creep_camp"/>
+  </add_element>
+  <add_element xpath="//region_feature[@id='wv_rf_forest']">
+      <inclusion_feature id="wv_rf_forest_ft_camp"
+          cells_per_occurrence="80"
+          minimum_occurrences="0"
+          cell_development="ft_d_creep_camp"/>
+  </add_element>
+
+<!-->
+  <add_element xpath="//biome[@id='cavewall']">
+		<trait trait="trait_solid"/>
+  </add_element>
+  <add_element xpath="//biome[@id='cavewall_fungal']">
+		<trait trait="trait_solid"/>
+  </add_element>
+  
+  <biome id="cavewall" name="Cave Wall" minimap_color="Black">
+    <adjacency_group group="cavewall" />
+    <detailed_sprite layer="0" image_key="cell_cavern" adjacency="cavewall" type="Tiles"/>
+    <detailed_sprite layer="0.7" image_key="cell_cavewall" adjacency="cavewall" type="Tiles"/>
+    <summary_sprite layer="0" image_key="cell_cavern_summary" adjacency="cavern" type="Simple"/>
+    <summary_sprite layer="0.7" image_key="cell_cavewall_summary" adjacency="cavewall" type="Tiles"/>
+    <trait trait="trait_underground"/>
+  </biome>
+
+  <biome id="cavewall_fungal" name="Cave Wall" minimap_color="Black">
+    <adjacency_group group="cavewall" />
+    <adjacency_group group="cave_green" />
+    <adjacency_group group="cave_mycelium" />
+    <detailed_sprite layer="0" image_key="cell_cavern" adjacency="cavewall" type="Tiles"/>
+    <detailed_sprite layer="0.05" image_key="cell_cavern_green" adjacency="cave_green" type="Tiles"/>
+    <detailed_sprite layer="0.1" image_key="cell_swamp_open" adjacency="cave_mycelium" type="Tiles"/>
+    <detailed_sprite layer="0.7" image_key="cell_cavewall" adjacency="cavewall" type="Tiles"/>
+    <detailed_sprite layer="0.75" image_key="cell_cavewall_mycelium" adjacency="cavewall" type="Tiles"/>
+    <summary_sprite layer="0" image_key="cell_cavern_summary" adjacency="cavern" type="Simple"/>
+    <summary_sprite layer="0.05" image_key="cell_cavern_green_summary" adjacency="cave_green" type="Tiles"/>
+    <summary_sprite layer="0.7" image_key="cell_cavewall_summary" adjacency="cavewall" type="Tiles"/>
+    <trait trait="trait_underground"/>
+  </biome>
+<!-->
+</mutators>

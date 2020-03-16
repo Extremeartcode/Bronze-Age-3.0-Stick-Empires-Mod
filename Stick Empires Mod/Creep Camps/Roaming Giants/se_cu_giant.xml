@@ -1,0 +1,51 @@
+<game_data>
+  <unit_type id="se_u_spearton"
+             name="Native Spearton Warrior"
+             race="se_cn_spearton"
+             type="SimpleUnitType"
+             category="category_infantry"
+             recruitment_category="recruit_native_spearton">
+
+    <description>
+      Natives, those who did not want to live under anyone's rule. They also lack armour, but more aggressive.
+    </description>
+
+  <equipment level="0" name="" icon="tc_u_LostTwelper_0_icon" portrait="tc_u_LostTwelper_0_portrait">
+    <description>
+        
+    </description>
+
+      <vision range="1" />
+
+    <movement>
+        <movement_mode type="move_walking" speed="3" />
+    </movement>
+
+      <combat individuals="24" health="27" armor="1" defense="2" block="2" strength_estimate="8" skirmish="6" resolve= "20">
+        <melee animation="melee" skill="4" damage="8" cooldown="1" range="8" armor_penetration="20"/>
+      </combat>
+
+      <individuals>
+        <animation name="idle" image_key = "tc_u_LostTwelper_0_idle" width="32" height="32" frame_count="3" facing_type="ByRow" sound="none" layer="0.5" loop_time="4" />
+        <animation name="walking" image_key = "tc_u_LostTwelper_0_walking" width="32" height="32" frame_count="3" facing_type="ByRow" sound="none" layer="0.8" loop_time="0.75" />
+        <animation name="melee" image_key = "tc_u_LostTwelper_0_melee" width="32" height="32" frame_count="3" facing_type="ByRow" sound="none" layer="0.8" loop_time="1" />
+        <animation name="skirmishing" image_key = "tc_u_LostTwelper_0_skirmishing" width="32" height="32" frame_count="3" facing_type="ByRow" sound="none" layer="0.8" loop_time="0.5" />
+        <animation name="death" image_key = "tc_u_LostTwelper_0_death" width="32" height="32" frame_count="3" facing_type="ByRow" sound="none" layer="0.8" loop_time="0.5" />
+        <animation name="corpse" image_key = "tc_u_LostTwelper_0_corpse" width="32" height="32" frame_count="3" facing_type="ByRow" sound="none" layer="0.8" loop_time="1" />
+        <animation name="camping" image_key = "tc_u_camplost" width="32" height="32" frame_count="1" facing_type="ByRow" sound="none" layer="0.8" loop_time="1" />
+      </individuals>
+
+
+      <action type="ArmyCampAction"/>
+      <action type="ArmyRaidAction"/>
+
+    <recruitment>
+    </recruitment>
+
+    <upkeep supply_capacity ="48">
+        <input item="Meat" per_month="0.5" />
+		<input item="Bread" per_month="0.5" />
+    </upkeep>
+  </equipment>
+  </unit_type>
+</game_data>

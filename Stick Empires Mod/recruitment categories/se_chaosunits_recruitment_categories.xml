@@ -1,0 +1,13 @@
+<game_data>
+  <recruitment_slot_category id="recruit_crawler" 		ame="Tamed Crawler" regen_months="0.034"  strength_estimate="4"/>
+  <recruitment_slot_category id="recruit_bomber" 		name="Bomber" regen_months="0.06"  strength_estimate="6"/>
+  <recruitment_slot_category id="recruit_dead" 			name="Tamed Dead" regen_months="0.15"  strength_estimate="8"/>
+  <recruitment_slot_category id="recruit_juggerknight" 	name="Juggerknight" regen_months="1"  strength_estimate="10"/>
+
+  <recruitment_slot_category id="recruit_eclipsor" 		name="Eclipsor" regen_months="3"  strength_estimate="8"/>
+  <recruitment_slot_category id="recruit_marrowkai"		name="Marrowkai" regen_months="6"  strength_estimate="10"/>
+  <recruitment_slot_category id="recruit_medusa" 		name="Medusa" regen_months="120"  strength_estimate="15"/>
+  <recruitment_slot_category id="recruit_chaos_giant"	name="Giant" regen_months="12"  strength_estimate="20"/>
+
+  <recruitment_slot_category id="recruit_enslaved_miner" name="Enslaved Miner" regen_months="0.06"  strength_estimate="6"/>
+  </game_data>

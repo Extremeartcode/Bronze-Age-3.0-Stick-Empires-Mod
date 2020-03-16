@@ -1,0 +1,17 @@
+<game_data>
+  <recruitment_slot_category id="recruit_earth_elemental" 	name="Earth Elemental" regen_months="0.034"  strength_estimate="8"/>
+  <recruitment_slot_category id="recruit_water_elemental" 	name="Water Elemental" regen_months="2"  strength_estimate="2"/>
+  <recruitment_slot_category id="recruit_fire_elemental"	name="Fire Elemental" regen_months="3"  strength_estimate="10"/>
+  <recruitment_slot_category id="recruit_air_elemental" 	name="Air Elemtal" regen_months="4"  strength_estimate="10"/>
+
+\\Fusions\\
+  <recruitment_slot_category id="recruit_charrog" 	name="Charrog" regen_months="2"  strength_estimate="18"/>
+  <recruitment_slot_category id="recruit_cycloid" 	name="Cycloid" regen_months="2"  strength_estimate="12"/>
+  <recruitment_slot_category id="recruit_treature" 	name="Treature" regen_months="2"  strength_estimate="10"/>
+  <recruitment_slot_category id="recruit_infernos" 	name="Infernos" regen_months="2"  strength_estimate="20"/>
+
+  <recruitment_slot_category id="recruit_V" 		name="V" regen_months="12"  strength_estimate="30"/>
+
+\\Transform\\
+  <recruitment_slot_category id="recruit_chompler" 	name="Chompler" regen_months="1"  strength_estimate="4"/>
+</game_data>

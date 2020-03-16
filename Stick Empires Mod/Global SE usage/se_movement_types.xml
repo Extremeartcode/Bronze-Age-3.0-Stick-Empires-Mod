@@ -1,0 +1,48 @@
+<game_data>
+  <movement_type id="move_walking"
+                 name="Walking"
+                 icon="move_walking_icon">
+    <required_trait id="trait_walkable" />
+    <animation name="walking"/>
+    <slowed_by trait="trait_trees" />
+    <slowed_by trait="trait_river" />
+    <slowed_by trait="trait_sand" />
+    <slowed_by trait="trait_uneven_ground" />
+    <sped_by trait="trait_road" />
+  </movement_type>
+  
+  <movement_type id="move_walking_forest"
+                 name="Forest Walk"
+                 icon="move_walking_forest_icon">
+    <required_trait id="trait_walkable" />
+    <animation name="walking"/>
+    <slowed_by trait="trait_river" />
+    <slowed_by trait="trait_sand" />
+    <slowed_by trait="trait_uneven_ground" />
+    <sped_by trait="trait_road" />
+  </movement_type>
+  
+  <movement_type id="move_sailing"
+               name="Sailing"
+               icon="move_sailing_icon">
+    <required_trait id="trait_water" />
+    <animation name="swimming"/>
+  </movement_type>
+
+  <movement_type id="move_diving"
+               name="Diving"
+               icon="move_diving_icon">
+    <required_trait id="trait_water" />
+    <required_trait id="trait_underwater" />
+    <animation name="diving"/>
+    <animation name="swimming"/>
+  </movement_type>
+
+  <movement_type id="move_wheels"
+               name="Wheels"
+               icon="move_wheels_icon">
+    <required_trait id="trait_road" />
+    <required_trait id="trait_walkable" />
+    <animation name="walking"/>
+  </movement_type>
+</game_data>

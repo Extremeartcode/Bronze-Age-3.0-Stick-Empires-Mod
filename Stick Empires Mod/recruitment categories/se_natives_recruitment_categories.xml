@@ -1,0 +1,6 @@
+<game_data>
+  <recruitment_slot_category id="recruit_native_spearton" name="Native Spearton" regen_months="4"  strength_estimate="14"/>
+  <recruitment_slot_category id="recruit_native_giant" name="Native Giant" regen_months="12"  strength_estimate="26"/>
+  <recruitment_slot_category id="recruit_native_deads" name="Roaming Dead" regen_months="2"  strength_estimate="6"/>
+  
+  </game_data>

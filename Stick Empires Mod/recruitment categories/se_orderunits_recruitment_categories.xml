@@ -1,0 +1,14 @@
+<game_data>
+  <recruitment_slot_category id="recruit_swordwrath" name="Swordrath" regen_months="0.034"  strength_estimate="6"/>
+  <recruitment_slot_category id="recruit_spearton" name="Spearton" regen_months="3"  strength_estimate="10"/>
+  <recruitment_slot_category id="recruit_archidon" name="Archidon" regen_months="0.5"  strength_estimate="8"/>  
+  <recruitment_slot_category id="recruit_magikill" name="Magikill" regen_months="2"  strength_estimate="8"/>
+
+  <recruitment_slot_category id="recruit_meric" name="Meric" regen_months="2"  strength_estimate="8"/>
+  <recruitment_slot_category id="recruit_shadowrath" name="Shadowrath" regen_months="3"  strength_estimate="12"/>
+  <recruitment_slot_category id="recruit_albowtross" name="Albowtross" regen_months="6"  strength_estimate="8"/>
+  <recruitment_slot_category id="recruit_enslaved_giant" name="Enslaved Giant" regen_months="12"  strength_estimate="15"/>
+
+  <recruitment_slot_category id="recruit_miner" name="Miner" regen_months="0.5"  strength_estimate="2"/>
+
+  </game_data>

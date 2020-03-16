@@ -1,0 +1,52 @@
+<game_data>
+  <cell_development id="se_cd_deads"
+          name="Necromancer Cemtery"
+          race="se_cr_Rdeads"
+          type="CreepCampDevelopmentType"
+          icon="ui_action_settle_button"
+          is_activity="false"
+          upgrade_only="true"
+          minimap_color="DarkGrey">
+
+    <description>
+      Necromancer station. Rising deads to do their bidding.
+    </description>
+
+    <placement_restriction type="cell_no_development"/>
+    <placement_restriction type="unique_by_id_with_neighbors"/>
+    <placement_restriction type="cell_has_trait" trait="trait_walkable" />
+    <placement_restriction type="cell_not_has_trait" trait="trait_uneven_ground" />
+	<placement_restriction type="cell_not_has_trait" trait="trait_animals" />
+
+    <detailed_animation name="" layer="0.7" image_key="tc_d_l_creep_camp" adjacency="" type="Simple" frame_count="1" loop_time="0.75"/>
+    <summary_sprite layer="0.7" image_key="tc_d_l_creep_camp_summary" adjacency="" type="Simple"/>
+
+    <vision range="3" />
+
+    <logi>
+      <source>
+        <hauler haul_distance="100">
+          <movement_type id="move_walking" />
+          <animation name="walking" image_key="hauler_humitte_single" facing_type="ByRow" frame_count="4" width="32" height="32" loop_time="0.5" layer="0.5"/>
+        </hauler>
+      </source>
+    </logi>
+
+    <abandonment type="clear" />
+    <raided type="clear" />
+
+    <construction months="1.0">
+      <workers caste="caste_humitte_citizen" need="0" />
+      <detailed_sprite layer="0.5" image_key="h_d_build_plot" adjacency="" type="Simple" />
+      <summary_sprite layer="0.5" image_key="h_d_build_plot_summary" adjacency="" type="Simple" />
+    </construction>
+
+    <operation>
+      <workers caste="caste_humitte_citizen" need="0" />
+      <inventory capacity="40" />
+      
+    </operation>
+
+    <bandits race="se_cr_deads" spawn_months_min="2" spawn_months_max="6" count_min="1" count_max="10" unit_type="se_cu_deads"/>
+  </cell_development>
+</game_data>

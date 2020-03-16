@@ -1,0 +1,83 @@
+<game_data>
+  <structure_type id="t_s_housing_0"
+      name="Holes"
+      race="t_r_twelper"
+      type="HousingStructureType"
+      upgrade_only="false"
+      icon="t_s_housing_0_icon"
+      placement_type="Single"
+      tiles_wide ="2"
+      tiles_high ="2"
+      minimap_color="DarkGrey">
+
+    <description>
+      Missing the vital Livingstone to built we will have to start with holes to supply housing to our Twelpers.
+    </description>
+
+    <not_trait trait="trait_walkable"/>
+
+    <placement_restriction type="has_trait" trait="trait_walkable" />
+    <placement_restriction type="no_structure"/>
+
+    <sprite_animation layer="0.5" image_key="t_s_housing_0" width="64" height="128"/>
+
+    <logi distance="1" />
+
+    <construction months="0.5">
+      <workers caste="caste_simple_twelper" need="0" />
+      <tile_animation layer="0.2" image_key="h_s_build_plot" adjacency="" layout="Standard"/>
+    </construction>
+
+    <operation>
+      <workers caste="caste_simple_twelper" need="0" />
+    </operation>
+
+    <housing caste="caste_simple_twelper" capacity="3" prosperity_per_pop="0">
+      <upgrade to="t_s_housing_1" time="1" />
+      <upgrade_need type="item" item="Livingstone" per_month_per_pop="0.05"/>
+      <upgrade_need type="service" service="Education"/>
+    </housing>
+  </structure_type>
+
+  <structure_type id="t_s_housing_1"
+      name="Tents"
+      race="t_r_twelper"
+      type="HousingStructureType"
+      upgrade_only="true"
+      icon="t_s_housing_1_icon"
+      placement_type="Single"
+      tiles_wide ="2"
+      tiles_high ="2"
+      minimap_color="DarkGrey">
+
+    <description>
+      With enough Livingstone at our disposal we are able to give our Twelpers actual Tents to live in.
+    </description>
+
+    <not_trait trait="trait_walkable"/>
+
+    <placement_restriction type="has_trait" trait="trait_walkable" />
+
+    <sprite_animation layer="0.5" image_key="t_s_housing_1" width="64" height="128"/>
+
+    <logi distance="1" />
+
+    <construction months="1">
+      <workers caste="caste_simple_twelper" need="2" />
+	  <!-->
+      <input item="Livingstone" per_month="5" /><!-->
+      <tile_animation layer="0.2" image_key="h_s_build_plot" adjacency="" layout="Standard"/>
+    </construction>
+
+    <operation>
+      <workers caste="caste_simple_twelper" need="0" />
+    </operation>
+
+    <housing caste="caste_simple_twelper" capacity="5"  prosperity_per_pop="0">
+      <downgrade to="t_s_housing_0" time="5" />
+      <maintenance_need type="item" item="Livingstone" per_month_per_pop="0.03"/>
+      <maintenance_need type="item" item="Livingstone" per_month_per_pop="0.03"/>
+      <maintenance_need type="service" service="Education" />
+    </housing>
+  </structure_type>
+</game_data>

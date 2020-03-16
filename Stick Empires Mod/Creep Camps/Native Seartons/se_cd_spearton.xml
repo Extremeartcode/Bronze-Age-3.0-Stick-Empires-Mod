@@ -1,0 +1,61 @@
+<game_data>
+  <cell_development id="se_cd_spearton"
+          name="Natives Camp"
+          race="se_cr_spearton"
+          type="CreepCampDevelopmentType"
+          icon="ui_action_settle_button"
+          is_activity="false"
+          upgrade_only="true"
+          minimap_color="DarkGrey">
+
+    <description>
+      A small camp occupied by native Spearton. 
+    </description>
+
+    <placement_restriction type="cell_no_development"/>
+    <placement_restriction type="unique_by_id_with_neighbors"/>
+    <placement_restriction type="cell_has_trait" trait="trait_walkable" />
+    <placement_restriction type="cell_has_trait" trait="trait_trees" />
+    <placement_restriction type="cell_not_has_trait" trait="trait_uneven_ground" />
+	<placement_restriction type="cell_not_has_trait" trait="trait_animals" />
+
+    <detailed_animation name="" layer="0.7" image_key="se_cu_spearton_portrait_placeholder" adjacency="" type="Simple" frame_count="1" loop_time="0.75"/>
+    <summary_sprite layer="0.7" image_key="se_cu_spearton_icon_placeholder" adjacency="" type="Simple"/>
+
+    <vision range="3" />
+
+    <logi>
+      <source>
+        <hauler haul_distance="100">
+          <movement_type id="move_walking" />
+          <animation name="walking" image_key="hauler_humitte_single" facing_type="ByRow" frame_count="4" width="32" height="32" loop_time="0.5" layer="0.5"/>
+        </hauler>
+      </source>
+    </logi>
+
+    <abandonment type="clear" />
+    <raided type="clear" />
+
+    <construction months="1.0">
+      <workers caste="caste_humitte_citizen" need="0" />
+      <detailed_sprite layer="0.5" image_key="h_d_build_plot" adjacency="" type="Simple" />
+      <summary_sprite layer="0.5" image_key="h_d_build_plot_summary" adjacency="" type="Simple" />
+    </construction>
+
+    <operation>
+      <workers caste="caste_humitte_citizen" need="0" />
+      <inventory capacity="40" />
+      
+    </operation>
+
+    <pacification months_to_pacify="2" dialog_context="">
+      <pacification_option id="pacification_food">
+        <input item="Meat" per_month="1"/>
+        <input item="Bread" per_month="1"/>
+      </pacification_option>
+      <mercenaries category="recruit_native_spearton" slots="2"/>
+    </pacification>
+
+    <bandits race="se_cr_spearton" spawn_months_min="2" spawn_months_max="6" count_min="4" count_max="8" unit_type="se_u_spearton"/>
+  </cell_development>
+</game_data>

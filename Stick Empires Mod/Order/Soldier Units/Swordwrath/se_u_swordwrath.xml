@@ -1,0 +1,166 @@
+<game_data>
+  <unit_type id="se_u_swordwrath"
+             name="Swordwrath"
+             race="se_r_Orderempire"
+             type="SimpleUnitType"
+             category="category_infantry"
+             recruitment_category="recruit_swordwrath">
+
+    <description>
+      The Swordwrath, basic starter unit.
+    </description>
+
+  <equipment level="0" name="" icon="se_o_u_swordwrath_0_icon" portrait="se_o_u_swordwrath_0_portrait">
+    <description>
+        Weilding a wooden club, these units can take care of weak enemies.
+    </description>
+
+      <vision range="2" />
+
+    <movement>
+        <movement_mode type="move_walking" speed="4" />
+    </movement>
+
+      <combat individuals="24" health="8" armor="0" defense="2" block="0" strength_estimate="1" skirmish="2" resolve= "4">
+        <melee animation="melee" skill="2" damage="2" cooldown="1" range="8" armor_penetration="0"/>
+      </combat>
+
+      <individuals>
+        <animation name="idle" image_key = "t_u_IMTwelper_0_idle" width="32" height="32" frame_count="3" facing_type="ByRow" sound="none" layer="0.5" loop_time="4" />
+        <animation name="walking" image_key = "t_u_IMTwelper_0_walking" width="32" height="32" frame_count="3" facing_type="ByRow" sound="none" layer="0.8" loop_time="0.75" />
+        <animation name="melee" image_key = "t_u_IMTwelper_0_melee" width="32" height="32" frame_count="3" facing_type="ByRow" sound="none" layer="0.8" loop_time="1" />
+        <animation name="skirmishing" image_key = "t_u_IMTwelper_0_skirmishing" width="32" height="32" frame_count="3" facing_type="ByRow" sound="none" layer="0.8" loop_time="0.5" />
+        <animation name="death" image_key = "t_u_IMTwelper_0_death" width="32" height="32" frame_count="3" facing_type="ByRow" sound="none" layer="0.8" loop_time="0.5" />
+        <animation name="corpse" image_key = "t_u_IMTwelper_0_corpse" width="32" height="32" frame_count="3" facing_type="ByRow" sound="none" layer="0.8" loop_time="1" />
+        <animation name="camping" image_key = "t_u_camping" width="32" height="32" frame_count="1" facing_type="ByRow" sound="none" layer="0.8" loop_time="1" />
+      </individuals>
+
+
+      <action type="ArmyCampAction"/>
+      <action type="ArmyRaidAction"/>
+
+    <recruitment>
+        
+    </recruitment>
+
+    <upkeep supply_capacity ="10">
+        <input item="Bread" per_month="0.5" />
+    </upkeep>
+  </equipment>
+  <equipment level="1" name="Copper Swords" icon="se_o_u_swordwrath_1_icon" portrait="se_o_u_swordwrath_1_portrait">
+    <description>
+        Better light units, weilding copper weapons. Still not used to the weak weapons, but will make do. 
+    </description>
+
+      <vision range="2" />
+
+    <movement>
+        <movement_mode type="move_walking" speed="4" />
+    </movement>
+
+      <combat individuals="24" health="8" armor="0" defense="2" block="2" strength_estimate="2" skirmish="2" resolve= "4">
+        <melee animation="melee" skill="4" damage="4" cooldown="0.5" range="8" armor_penetration="0"/>
+      </combat>
+
+      <individuals>
+        <animation name="idle" image_key = "t_u_IMTwelper_1_idle" width="32" height="32" frame_count="3" facing_type="ByRow" sound="none" layer="0.5" loop_time="4" />
+        <animation name="walking" image_key = "t_u_IMTwelper_1_walking" width="32" height="32" frame_count="3" facing_type="ByRow" sound="none" layer="0.8" loop_time="0.75" />
+        <animation name="melee" image_key = "t_u_IMTwelper_1_melee" width="32" height="32" frame_count="3" facing_type="ByRow" sound="none" layer="0.8" loop_time="1" />
+        <animation name="skirmishing" image_key = "t_u_IMTwelper_1_skirmishing" width="32" height="32" frame_count="3" facing_type="ByRow" sound="none" layer="0.8" loop_time="0.5" />
+        <animation name="death" image_key = "t_u_IMTwelper_1_death" width="32" height="32" frame_count="3" facing_type="ByRow" sound="none" layer="0.8" loop_time="0.5" />
+        <animation name="corpse" image_key = "t_u_IMTwelper_1_corpse" width="32" height="32" frame_count="3" facing_type="ByRow" sound="none" layer="0.8" loop_time="1" />
+        <animation name="camping" image_key = "t_u_camping" width="32" height="32" frame_count="1" facing_type="ByRow" sound="none" layer="0.8" loop_time="1" />
+      </individuals>
+
+
+      <action type="ArmyCampAction"/>
+      <action type="ArmyRaidAction"/>
+
+    <recruitment>
+        
+        <equipment item="Copper Weapons" amount="1" />
+    </recruitment>
+
+    <upkeep supply_capacity ="20">
+        <input item="Bread" per_month="0.5" />
+    </upkeep>
+  </equipment>
+  <equipment level="2" name="Bronze Swords" icon="se_o_u_swordwrath_2_icon" portrait="se_o_u_swordwrath_2_portrait">
+    <description>
+        Weilding bronze weapons, they are more couragious with their strength! 
+    </description>
+
+      <vision range="2" />
+
+    <movement>
+        <movement_mode type="move_walking" speed="4" />
+    </movement>
+
+      <combat individuals="24" health="8" armor="0" defense="4" block="4" strength_estimate="3" skirmish="2" resolve= "4">
+        <melee animation="melee" skill="4" damage="6" cooldown="0.25" range="16" armor_penetration="1"/>
+      </combat>
+
+      <individuals>
+        <animation name="idle" image_key = "t_u_IMTwelper_2_idle" width="32" height="32" frame_count="3" facing_type="ByRow" sound="none" layer="0.5" loop_time="4" />
+        <animation name="walking" image_key = "t_u_IMTwelper_2_walking" width="32" height="32" frame_count="3" facing_type="ByRow" sound="none" layer="0.8" loop_time="0.75" />
+        <animation name="melee" image_key = "t_u_IMTwelper_2_melee" width="32" height="32" frame_count="3" facing_type="ByRow" sound="none" layer="0.8" loop_time="1" />
+        <animation name="skirmishing" image_key = "t_u_IMTwelper_2_skirmishing" width="32" height="32" frame_count="3" facing_type="ByRow" sound="none" layer="0.8" loop_time="0.5" />
+        <animation name="death" image_key = "t_u_IMTwelper_2_death" width="32" height="32" frame_count="3" facing_type="ByRow" sound="none" layer="0.8" loop_time="0.5" />
+        <animation name="corpse" image_key = "t_u_IMTwelper_2_corpse" width="32" height="32" frame_count="3" facing_type="ByRow" sound="none" layer="0.8" loop_time="1" />
+        <animation name="camping" image_key = "t_u_camping" width="32" height="32" frame_count="1" facing_type="ByRow" sound="none" layer="0.8" loop_time="1" />
+      </individuals>
+
+
+      <action type="ArmyCampAction"/>
+      <action type="ArmyRaidAction"/>
+
+    <recruitment>
+        <equipment item="Bronze Weapons" amount="1" />
+       
+    </recruitment>
+
+    <upkeep supply_capacity ="20">
+        <input item="Bread" per_month="0.5" />
+        
+    </upkeep>
+  </equipment>
+  <equipment level="3" name="Steel Swords" icon="se_o_u_swordwrath_3_icon" portrait="se_o_u_swordwrath_3_portrait">
+    <description>
+        NOW WE'RE TALKING! These are the strongest Swordwrath, trained for WAR and heavily weaponised.  They make good cheap war units.
+    </description>
+
+      <vision range="2" />
+
+    <movement>
+        <movement_mode type="move_walking" speed="4" />
+    </movement>
+
+      <combat individuals="24" health="10" armor="1" defense="6" block="8" strength_estimate="4" skirmish="2" resolve= "6">
+        <melee animation="melee" skill="6" damage="8" cooldown="1" range="8" armor_penetration="2"/>
+      </combat>
+
+      <individuals>
+        <animation name="idle" image_key = "t_u_IMTwelper_3_idle" width="32" height="32" frame_count="3" facing_type="ByRow" sound="none" layer="0.5" loop_time="4" />
+        <animation name="walking" image_key = "t_u_IMTwelper_3_walking" width="32" height="32" frame_count="3" facing_type="ByRow" sound="none" layer="0.8" loop_time="0.75" />
+        <animation name="melee" image_key = "t_u_IMTwelper_3_melee" width="32" height="32" frame_count="3" facing_type="ByRow" sound="none" layer="0.8" loop_time="1" />
+        <animation name="skirmishing" image_key = "t_u_IMTwelper_3_skirmishing" width="32" height="32" frame_count="3" facing_type="ByRow" sound="none" layer="0.8" loop_time="0.5" />
+        <animation name="death" image_key = "t_u_IMTwelper_3_death" width="32" height="32" frame_count="3" facing_type="ByRow" sound="none" layer="0.8" loop_time="0.5" />
+        <animation name="corpse" image_key = "t_u_IMTwelper_3_corpse" width="32" height="32" frame_count="3" facing_type="ByRow" sound="none" layer="0.8" loop_time="1" />
+        <animation name="camping" image_key = "t_u_camping" width="32" height="32" frame_count="1" facing_type="ByRow" sound="none" layer="0.8" loop_time="1" />
+      </individuals>
+
+
+      <action type="ArmyCampAction"/>
+      <action type="ArmyRaidAction"/>
+
+    <recruitment>
+        <equipment item="Steel Weapons" amount="1" />
+        <equipment item="Wealth" amount="2" />
+    </recruitment>
+
+    <upkeep supply_capacity ="36">
+        <input item="Bread" per_month="1" />
+    </upkeep>
+  </equipment>
+  </unit_type>
+</game_data>

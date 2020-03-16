@@ -1,0 +1,104 @@
+<game_data>
+\\\Original Edited Items\\
+  <item name="Mudbrick" icon="se_mudbrick" icon_big="se_mudbrick_big">
+    <description>A common construction material, used in most starter structures.</description>
+  </item>
+  <item name="Wheat" icon="se_wheat" icon_big="se_wheat_big">
+    <description>A crop used to make bread and feed livestock.</description>
+  </item>
+  <item name="Pigs" icon="se_pig" icon_big="se_pig_big">
+    <description>The local pigs are hardy, versitile creatures. Good for eating and as beasts of burden.</description>
+  </item>
+  <item name="Wood" icon="se_wood" icon_big="se_wood_big">
+    <description>Wood is harvested from trees, and is useful for building advanced structures and a majority of weapons.</description>
+  </item>
+  <item name="Copper" icon="se_copper" icon_big="se_copper_big">
+    <description>Copper is used for starter weapons.</description>
+  </item>
+  <item name="Limestone" icon="se_limestone" icon_big="se_limestone_big">
+    <description>Limestone is used in a majority of advanced structures and allows Statue construction.</description>
+  </item>
+  <item name="Tin" icon="se_tin" icon_big="se_tin_big">
+    <description>Tin is a rare metal, essential for producing bronze.</description>
+  </item>
+  <item name="Bronze" icon="se_bronze" icon_big="se_bronze_big">
+    <description>Bronze is harder and more durable than copper, making much better weapons.</description>
+  </item>
+  <item name="Meat" icon="se_meat" icon_big="se_meat_big">
+    <description>Meat is an important food scource other than bread. Who even eats raw wheat?</description>
+  </item>
+  <item name="Raw Cotton" icon="se_raw_cotton" icon_big="se_raw_cotton_big">
+    <description>Raw cotton plants produce raw cotton. Essential for clothing.</description>
+  </item>
+  <item name="Bread" icon="se_bread" icon_big="se_bread_big">
+    <description>Baked wheat, a staple food for your people. The only vegetarian food scource.</description>
+  </item>
+  <item name="Beer" icon="se_beer" icon_big="se_beer_big">
+    <description>An alcoholic drink brewed from wheat, a common drink among higher end citizens but a luxury for the lower end citizens.</description>
+  </item>
+  <item name="Cloth" icon="se_cotton_cloth" icon_big="se_cotton_cloth_big">
+    <description>A need for most higher end citizens, but luxurious for the lower ends.</description>
+  </item>
+  <item name="Coal" icon="se_coal" icon_big="se_coal_big">
+    <description>Coal is a dark rock that can burns hotly. It is extremely valuble as it is used iin a majority of recipes. Charcoal is also classified as coal</description>
+  </item>
+  <item name="Copper Ore" icon="se_ore_copper" icon_big="se_ore_copper_big">
+    <description>Copper ore can be smelted into copper inggots, a useful metal for starter tools.</description>
+  </item>
+  <item name="Tin Ore" icon="se_ore_tin" icon_big="se_ore_tin_big">
+    <description>Tin ore can be smelted into tin inggots. Tin can be used to make bronze for more advanced weapons.</description>
+  </item>
+  <item name="Copper Tools" icon="se_tools_copper" icon_big="se_tools_copper_big">
+    <description>Copper tools are a significant improvement over sticks and sharp rocks.</description>
+  </item>
+  <item name="Bronze Tools" icon="se_tools_bronze" icon_big="se_tools_bronze_big">
+    <description>Bronze tools are sharp and durable, excellent for many jobs.</description>
+  </item>
+  <item name="Royal Decrees" icon="se_royal_decrees" icon_big="se_royal_decrees_big">
+    <description>Royal Decrees are documents carrying the will of the king, conveying his authority to even distant cities.</description>
+  </item>
+  <item name="Earth Worms" icon="se_worms" icon_big="se_worms_big">
+    <description>Worms are mainly used for raising chickens. Though, most are found in the bodies of the already rotting Deads.</description>
+  </item>
+  <item name="Domesticated Chickens" icon="se_chickens" icon_big="se_chickens_big">
+    <description>Chickens are a cheap source of meat. Providing a cheaper substitute to pigs. Locals are allowed to raise their own chickens.</description>
+  </item>
+  <item name="Basic Furniture" icon="se_furniture" icon_big="se_furniture_big">
+    <description>Basic furniture are used for the lower end citizens. Mostly out of wood.</description>
+  </item>
+  <item name="Fine Furniture" icon="se_furniture_2" icon_big="se_furniture_2_big">
+    <description>Fine furniture are used for the Higher end citizens. Most are made with stone and a variety of materials.</description>
+  </item>
+  
+\\\\\Orer Major Items\\\\\
+	<item name="Iron Ore" icon="se_iron" icon_big="se_iron_big">
+    <description>Iron, used for cheaper weapons or for smelting steel.</description>
+  </item>
+  <item name="Raw Gold" icon="se_rawgold" icon_big="se_rawgold_big">
+    <description>Raw gold is useless right now, but used to make pure gold.</description>
+  </item>
+  <item name="Mana" icon="se_mana" icon_big="se_mana_big">
+    <description>Essence used for much better trained units. It's also used to keep the Undead in one peice.</description>
+  </item>
+	\\\Swordrath\\\
+  <item name="Wooden Swords" icon="se_swords_0" icon_big="se_swords_0_big">
+    <description>Starter weapons for earlier military, these would suffice for basic defense and militia.</description>
+  </item>
+  <item name="Copper Swords" icon="se_swords_1" icon_big="se_swords_1_big">
+    <description>Better than wood swords, these will do good for the meantime.</description>
+  </item>
+  <item name="Bronze Swords" icon="se_swords_2" icon_big="se_swords_2_big">
+    <description>Better than wood swords, these will do good for the meantime.</description>
+  </item>
+  <item name="Iron Swords" icon="se_swords_3" icon_big="se_swords_3_big">
+    <description>Cheaper than steel, but weaker. I don't even know why you even bother</description>
+  </item>
+  <item name="Steel Swords" icon="se_swords_4" icon_big="se_swords_4_big">
+    <description>The best weapon in the Swordrath arsenal. Now these blades can "SEVERE LIMBS MERE SIGHT"</description>
+  </item>
+  
+  \\\Archidon\\\
+  <item name="Wooden Arrows" icon="se_arrows_0" icon_big="se_arrows_0_big">
+    <description>Basic arrows made of wood. An Archidon's traditional weapon.</description>
+  </item>
+</game_data>
